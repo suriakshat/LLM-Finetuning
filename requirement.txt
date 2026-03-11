@@ -1,0 +1,51 @@
+# === Core Libraries ===
+torch>=2.8.0
+transformers>=4.57.0
+datasets>=2.20.0
+
+# === Optional but recommended for speed & stability ===
+accelerate>=0.31.0
+scipy>=1.14.1
+numpy>=2.1.1
+
+# === Tokenizer dependencies ===
+sentencepiece>=0.2.0
+protobuf>=5.28.0
+
+# === File handling ===
+jsonlines>=4.0.0  # useful if your dataset is .jsonl
+
+# === HF Hub token (optional env-based use) ===
+huggingface_hub>=0.26.2
+
+# === GPU performance enhancements ===
+bitsandbytes>=0.45.0
+
+evaluate
+scikit-learn
+peft
+langchain
+langchain_huggingface
+boto3
+langchain-community
+sentence-transformers
+langgraph
+
+faiss-cpu
+uvicorn
+fastapi
+mcp
+fastmcp
+langchain-google-genai 
+langchain-groq 
+pypdf
+langchain-mcp-adapters
+
+
+
+
+
+
+
+
+
